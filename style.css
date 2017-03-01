@@ -1,0 +1,17 @@
+.emscripten {
+    padding-right: 0;
+    font-size: 11px;
+    display: block;
+}
+canvas.emscripten {
+    border: 1px solid black;
+}
+textarea.emscripten {
+    font-family: monospace;
+    height: 200px;
+    width: 100%;
+}
+table.noborder {
+    border: 0;
+    vertical-align: text-top;
+}
