@@ -22,7 +22,7 @@ function printSmth(smth) {
 
 function parseRaw(data) {
     var parsed = formatRaw(data);
-    if (!IsJsonString(parsed)) {
+    if (!IsJsonString(data)) {
         return "Unable to parse";
     } else {
         return JSON.parse(parsed);
